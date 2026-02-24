@@ -10,7 +10,8 @@ import { FolderOpen, Home, Clock } from "lucide-react";
 import TargetCursor from "./components/TargetCursor";
 import TaskExplorer from "./pages/TaskExplorer";
 import TimeLineMK from "./components/blocks/TimeLineMK";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 export default function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -137,9 +138,10 @@ export default function App() {
       className="bg-[#020617] text-slate-200 min-h-screen font-sans selection:bg-sky-500 selection:text-white pb-20 md:pb-0 relative"
       style={{ cursor: "none" }}
     >
-      {/* Analitiys Vercel */}
+      {/* Vercel Components */}
       <Analytics />
-
+      <SpeedInsights />
+      
       {/* Custom Cursor */}
       <TargetCursor
         spinDuration={2}
