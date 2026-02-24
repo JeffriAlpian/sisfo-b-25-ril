@@ -203,7 +203,7 @@ export const MEMBERS_DATA = [
     id: 7,
     name: "Ahmad Fauzan Rasyidin",
     npm: "2571020001",
-    role: "Anggota",
+    role: "Jungler",
     category: "reguler",
     avatar: "/images/fauzan.jpg",
     ttl: "Waykanan, 16 Oktober 2007",
