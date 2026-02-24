@@ -10,7 +10,7 @@ import { FolderOpen, Home, Clock } from "lucide-react";
 import TargetCursor from "./components/TargetCursor";
 import TaskExplorer from "./pages/TaskExplorer";
 import TimeLineMK from "./components/blocks/TimeLineMK";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [isScrolled, setIsScrolled] = useState(false);
