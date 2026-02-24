@@ -207,8 +207,8 @@ export const MEMBERS_DATA = [
     category: "reguler",
     avatar: "/images/fauzan.jpg",
     ttl: "Waykanan, 16 Oktober 2007",
-    motto: "Mengerti Berarti Menerima",
-    hobby: "Game",
+    motto: "Stay patient, stay consistent, and let time prove your effort",
+    hobby: "Lost in games, inspired by movies, living through music",
     sosmed: "fauzan_mcgill",
   },
   {
