@@ -124,11 +124,11 @@ export default function App() {
         );
 
       case "gallery":
-        // return(
-        //   <div className="pt-24 pb-12 px-4 md:px-8 max-w-7xl mx-auto min-h-screen">
-        //     <GallerySection />
-        //   </div>
-        // );
+      // return(
+      //   <div className="pt-24 pb-12 px-4 md:px-8 max-w-7xl mx-auto min-h-screen">
+      //     <GallerySection />
+      //   </div>
+      // );
       default:
         return (
           <div className="pt-16">
@@ -146,7 +146,7 @@ export default function App() {
       {/* Vercel Components */}
       <Analytics />
       <SpeedInsights />
-      
+
       {/* Custom Cursor */}
       <TargetCursor
         spinDuration={2}
@@ -191,7 +191,15 @@ export default function App() {
       </main>
 
       {/* TOMBOL NAVIGASI FLOATING (Sistem Pindah Halaman) */}
-      <div className="fixed bottom-6 right-6 z-50 flex gap-2 bg-slate-900/80 backdrop-blur-md p-1.5 rounded-full border border-sky-500/30 shadow-[0_0_30px_rgba(14,165,233,0.2)]">
+      <div
+        className="fixed bottom-6 z-50 flex gap-2 
+  bg-slate-900/80 backdrop-blur-md p-1.5 
+  rounded-full border border-sky-500/30 
+  shadow-[0_0_30px_rgba(14,165,233,0.2)]
+
+  left-1/2 -translate-x-1/2
+  md:left-auto md:translate-x-0
+  md:right-6 " >
         <button
           onClick={() => {
             setActivePage("home");
