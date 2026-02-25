@@ -1,16 +1,182 @@
-# React + Vite
+# 🚀 PORTAL KELAS B
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Website Resmi & Platform Manajemen Tugas Mahasiswa Kelas B\
+> Dibuat karena... Google Drive kami sudah tidak sanggup lagi 🥲
 
-Currently, two official plugins are available:
+------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Kisah di Balik Layar (Origin Story)
 
-## React Compiler
+> *"Berawal dari sebuah kegelisahan komunal: Limit Google Drive 15GB
+> yang menangis."*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Portal Kelas B tidak lahir karena gabut.\
+Tidak juga karena terlalu banyak waktu luang.
 
-## Expanding the ESLint configuration
+Website ini lahir dari keresahan nyata anak-anak **Kelas B** setiap
+musim pengumpulan tugas:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> "Siapa yang rela mengorbankan storage Google Drive-nya hari ini?"
+
+File tugas makin lama makin brutal ukurannya.\
+Project koding? Berat.\
+Desain? Lebih berat lagi.\
+Video presentasi? Sudah pasti bikin storage teriak.
+
+Kami capek bikin akun Google baru.\
+Capek hapus-hapus file lama.\
+Capek lihat notifikasi **"Storage Full"** 😭
+
+Akhirnya kami bilang:\
+**Sudah cukup. Kita bikin sistem sendiri.**
+
+Dan lahirlah:
+
+✨ **Portal Kelas B**
+
+Dengan dua misi mulia:
+
+1.  🛟 Menyelamatkan Google Drive pribadi
+2.  🌍 Menampilkan warga Kelas B yang kece-kece ke dunia luar (dan dosen
+    tercinta)
+
+CMIIW sih... tapi menurut kami ini keren betul 😎
+
+------------------------------------------------------------------------
+
+## ✨ Fitur Unggulan
+
+### 🎯 Dropzone Tugas (No More G-Drive Tears)
+
+-   Upload tugas tinggal drag & drop
+-   File langsung aman di server/cloud kelas
+-   Tidak ada lagi drama storage penuh
+-   Tidak ada lagi "Eh siapa yang upload ya?"
+
+------------------------------------------------------------------------
+
+### 🧑‍💻 Showcase Warga Kelas B
+
+Halaman khusus untuk menampilkan:
+
+-   Nama lengkap
+-   Role / keahlian
+-   Hobi
+-   Link GitHub
+-   Link LinkedIn
+-   Portofolio
+
+Karena anak Kelas B bukan cuma ngumpul tugas.\
+Tapi juga punya branding 😎
+
+------------------------------------------------------------------------
+
+### 📅 Board Jadwal & Deadline
+
+-   Jadwal kuliah terstruktur
+-   Countdown deadline tugas
+-   Pengingat visual supaya tidak ada lagi alasan:
+
+> "Lupa kalau ada tugas..."
+
+Tidak ada ampun sekarang 😌
+
+------------------------------------------------------------------------
+
+## 🛠️ Tech Stack
+
+**Frontend** - React.js - Vite
+
+**Styling** - Tailwind CSS - Lucide Icons
+
+**Deployment** - Vercel / Netlify (Coming Soon 👀)
+
+------------------------------------------------------------------------
+
+## 🚀 Cara Menjalankan Project Secara Lokal
+
+### 1️⃣ Clone repository
+
+``` bash
+git clone https://github.com/kelas-b/portal-kelas-b.git
+```
+
+### 2️⃣ Masuk ke folder project
+
+``` bash
+cd portal-kelas-b
+```
+
+### 3️⃣ Install dependencies
+
+``` bash
+npm install
+```
+
+Atau:
+
+``` bash
+yarn install
+```
+
+atau
+
+``` bash
+pnpm install
+```
+
+### 4️⃣ Jalankan development server
+
+``` bash
+npm run dev
+```
+
+### 5️⃣ Buka di browser
+
+http://localhost:5173
+
+Boom 💥\
+Website Kelas B siap kamu oprek.
+
+------------------------------------------------------------------------
+
+## 🤝 Kontribusi
+
+Portal ini milik kita bersama.
+
+Kalau kamu:
+
+-   Punya ide fitur baru
+-   Nemuin bug
+-   Mau improve UI biar makin estetik
+-   Atau cuma pengen nambahin easter egg
+
+Silakan:
+
+1.  Fork repo
+2.  Buat branch baru
+3.  Pull Request
+4.  Kabari di grup WhatsApp / Discord kelas
+
+Jangan commit langsung ke main ya bestie 😌
+
+------------------------------------------------------------------------
+
+## 🎯 Future Plan
+
+-   Sistem autentikasi user
+-   Dashboard admin
+-   Storage monitoring
+-   Dark mode (wajib)
+-   Statistik upload tugas
+-   Leaderboard paling rajin 👀
+
+------------------------------------------------------------------------
+
+::: {align="center"}
+### Dibuat dengan 💻, ☕, dan 😭
+
+*(karena G-Drive penuh)*
+
+**Oleh Anak Kelas B.**
+:::

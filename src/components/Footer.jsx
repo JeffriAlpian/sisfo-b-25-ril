@@ -4,7 +4,7 @@ export default function Footer() {
 const links = [
     { Icon: Instagram, href: "https://instagram.com/yourprofile" },
     { Icon: Github, href: "https://github.com/yourusername" },
-    { Icon: Mail, href: "mailto:you@example.com" },
+    { Icon: Mail, href: "sisfobradenintan@gmail.com" },
 ];
 
 return (

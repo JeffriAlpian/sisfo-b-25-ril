@@ -5,7 +5,7 @@ import HomeSection from "./sections/HomeSection";
 import StrukturSection from "./sections/StrukturSection";
 import JadwalSection from "./sections/JadwalSection";
 import MemberSection from "./sections/MemberSection";
-// import GallerySection from "./sections/GallerySection";
+import GallerySection from "./sections/GallerySection";
 import { FolderOpen, Home, Clock } from "lucide-react";
 import TargetCursor from "./components/TargetCursor";
 import TaskExplorer from "./pages/TaskExplorer";
@@ -123,7 +123,12 @@ export default function App() {
           </div>
         );
 
-      case "tasks":
+      case "gallery":
+        // return(
+        //   <div className="pt-24 pb-12 px-4 md:px-8 max-w-7xl mx-auto min-h-screen">
+        //     <GallerySection />
+        //   </div>
+        // );
       default:
         return (
           <div className="pt-16">
