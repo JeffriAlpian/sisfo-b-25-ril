@@ -48,7 +48,7 @@ CMIIW sih... tapi menurut kami ini keren betul 😎
 
 ### 🎯 Dropzone Tugas (No More G-Drive Tears)
 
--   Upload tugas tinggal drag & drop
+-   Upload tugas dengan sistem keamanan
 -   File langsung aman di server/cloud kelas
 -   Tidak ada lagi drama storage penuh
 -   Tidak ada lagi "Eh siapa yang upload ya?"
@@ -62,8 +62,7 @@ Halaman khusus untuk menampilkan:
 -   Nama lengkap
 -   Role / keahlian
 -   Hobi
--   Link GitHub
--   Link LinkedIn
+-   Link Instagram
 -   Portofolio
 
 Karena anak Kelas B bukan cuma ngumpul tugas.\
@@ -71,15 +70,10 @@ Tapi juga punya branding 😎
 
 ------------------------------------------------------------------------
 
-### 📅 Board Jadwal & Deadline
+### 📅 Board Jadwal & Timeline Kurikulum
 
 -   Jadwal kuliah terstruktur
--   Countdown deadline tugas
--   Pengingat visual supaya tidak ada lagi alasan:
-
-> "Lupa kalau ada tugas..."
-
-Tidak ada ampun sekarang 😌
+-   Timeline mata kuliah yang udah berlalu
 
 ------------------------------------------------------------------------
 
@@ -89,7 +83,7 @@ Tidak ada ampun sekarang 😌
 
 **Styling** - Tailwind CSS - Lucide Icons
 
-**Deployment** - Vercel / Netlify (Coming Soon 👀)
+**Deployment** - Vercel
 
 ------------------------------------------------------------------------
 
@@ -167,16 +161,14 @@ Jangan commit langsung ke main ya bestie 😌
 -   Sistem autentikasi user
 -   Dashboard admin
 -   Storage monitoring
--   Dark mode (wajib)
+-   Dark/light mode (wajib)
 -   Statistik upload tugas
 -   Leaderboard paling rajin 👀
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
 ### Dibuat dengan 💻, ☕, dan 😭
 
 *(karena G-Drive penuh)*
 
 **Oleh Anak Kelas B.**
-:::
