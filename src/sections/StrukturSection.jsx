@@ -63,7 +63,7 @@ export default function StrukturSection() {
             {[
               {
                 title: "Sekretaris 1",
-                name: "Citra Irfa Diana",
+                name: "Citra Irfa Diani",
                 icon: <PenLine size={24} />,
                 color: "sky",
               },
