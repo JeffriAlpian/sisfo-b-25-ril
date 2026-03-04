@@ -192,7 +192,7 @@ export default function TaskExplorer() {
           </div>
 
           <div className="flex items-center gap-3 w-full md:w-auto overflow-x-auto pb-2 md:pb-0">
-            <div className="relative w-full md:w-48 group shrink-0">
+            <div className="relative w-1/2 md:w-48 group shrink-0">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 group-focus-within:text-sky-400 transition-colors" size={16} />
               <input 
                 type="text" 
